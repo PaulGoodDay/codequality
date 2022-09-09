@@ -1,9 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-const x = true ? 1 : false ? 0: 1;
-
 export default function App() {
-    const x = true ? 1 : false ? 0: 1;
+  const x = true ? 1 : false ? 0: 1;
   return (
     <View style={styles.container}>
       <Text>I changed this a third time!</Text>
@@ -12,13 +10,13 @@ export default function App() {
 }
 
 export const test = () => {
-    const x = true ? 1 : false ? 0: 1;
-    return (
-      <View style={styles.container}>
-        <Text>I changed this a third time!</Text>
-      </View>
-    );
-  }
+  const x = true ? 1 : false ? 0: 1;
+  return (
+    <View style={styles.container}>
+      <Text>I changed this a third time!</Text>
+    </View>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
