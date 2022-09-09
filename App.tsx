@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>I changed this!</Text>
+      <Text>I changed this (twice)!</Text>
     </View>
   );
 }
