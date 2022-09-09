@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>I changed this a third time!</Text>
-    </View>
+    </View
   );
 }
 
@@ -14,7 +14,7 @@ export const test = () => {
   return (
     <View style={styles.container}>
       <Text>I changed this a third time!</Text>
-    </View
+    </View>
   );
 }
 
