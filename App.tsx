@@ -2,6 +2,7 @@ import { StyleSheet, Text, View  from 'react-native';
 
 export default function App() {
   const x = true ? 1 : false ? 0: 1;
+  var b = (a === 'A') ? 'is A' : 'is not A';
   var y = x / 4;
   return 
     <View style={styles.container}>
